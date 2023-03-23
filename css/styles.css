@@ -101,6 +101,9 @@ button{
     color:var(--secondary-color); 
     transition: color var(--transition-duration-and-fund);
 }
+.bottom-studio{
+color: var(--Pressed-state);
+}
 .bottom-studio::after{
     position: absolute;
     content: "";
@@ -108,9 +111,9 @@ button{
     height: 4px;
     left: 0px;
     top: 44px;
-    background:var(--Pressed-state);
+    background-color:var(--Pressed-state);
     border-radius: 2px;
-}    
+} 
 .header-link:hover,
 .header-link:focus{
     color:var(--Pressed-state);
@@ -484,6 +487,9 @@ button{
     fill: var(--text-btn-color);
 }
 /**--------PORTFOLIO-------*/ 
+.bottom-portfolio{
+    color: var(--Pressed-state);
+}
 .bottom-portfolio::after{
     position: absolute;
     content: "";
@@ -508,7 +514,7 @@ button{
     display: block;
     margin: 0 auto;  
     min-width: 69px;
-    transition: background-color var(--transition-duration-and-fund),color var(--transition-duration-and-fund), box-shadow var(--transition-duration-and-fund) ;
+    transition: border-color var(--transition-duration-and-fund), background-color var(--transition-duration-and-fund),color var(--transition-duration-and-fund), box-shadow var(--transition-duration-and-fund) ;
 }
 .choice-btn:hover,
 .choice-btn:focus{
